@@ -1,0 +1,126 @@
+/* Reset padrão para o body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000000;
+  }
+  
+  /* Estilo para o cabeçalho */
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #01082e;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .header-logo {
+    width: 100px; /* Ajuste o tamanho do logo conforme necessário */
+  }
+  
+  .header-nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-nav-list-item {
+    margin-left: 20px;
+  }
+  
+  .header-nav-list-item a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .header-nav-list-item a:hover {
+    color: #ffffff; /* Mude para a cor desejada quando o link for hover */
+  }
+  
+  /* Estilo para as seções */
+  .section {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .section-text {
+    font-size: 18px;
+    line-height: 1.6;
+    color: ivory;
+  }
+  
+  .section-image {
+    width: 100%; /* Ajuste o tamanho da imagem conforme necessário */
+    max-width: 600px; /* Defina um tamanho máximo para evitar que a imagem fique muito grande */
+    margin-top: 20px;
+    box-shadow: 0 2px 4px #ffffffe5;
+  }
+  
+  /* Estilo para os alunos */
+  .students-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: 30px;
+    justify-items: center;
+    margin-top: 30px;
+  }
+  
+  .student {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.102);
+    transition: transform 0.3s ease;
+  }
+  
+  .student-image {
+    width: 150px; /* Ajuste o tamanho da imagem do aluno conforme necessário */
+    border-radius: 50%;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(206, 130, 130, 0.1);
+  }
+  
+  .student-name {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #ffffff;
+  }
+  
+  .student-description {
+    font-size: 16px;
+    line-height: 1.4;
+    color: #fce1e1;
+  }
+  
+  .student-instagram img {
+    width: 30px;
+    margin-top: 10px;
+  }
+  
+  .student-instagram img:hover {
+    transform: scale(1.2); /* Efeito de escala no hover */
+  }
+  
+  /* Estilo para o rodapé */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
